@@ -1,0 +1,12 @@
+main {
+
+    display: grid;
+    grid-template-areas: 
+    "head head head"
+    "side content content"
+    "footer footer footer"
+}
+header{grid-area: head;}
+article{grid-area: side;}
+aside{grid-area: content;}
+footer{grid-area: footer;}
